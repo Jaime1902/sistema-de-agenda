@@ -100,5 +100,11 @@ namespace sistema_de_agenda
         {
 
         }
+
+        private void button_back_Click(object sender, EventArgs e)
+        {
+            
+            this.Close();
+        }
     }
 }

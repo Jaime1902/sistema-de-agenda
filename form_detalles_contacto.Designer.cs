@@ -32,6 +32,10 @@
             this.label_numberphone = new System.Windows.Forms.Label();
             this.label_email = new System.Windows.Forms.Label();
             this.label_date = new System.Windows.Forms.Label();
+            this.button_back = new System.Windows.Forms.Button();
+            this.button_edit = new System.Windows.Forms.Button();
+            this.button_view = new System.Windows.Forms.Button();
+            this.button_eliminar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_name
@@ -74,16 +78,58 @@
             this.label_date.Text = "label_date";
             this.label_date.Click += new System.EventHandler(this.label_date_Click);
             // 
+            // button_back
+            // 
+            this.button_back.Location = new System.Drawing.Point(12, 29);
+            this.button_back.Name = "button_back";
+            this.button_back.Size = new System.Drawing.Size(75, 23);
+            this.button_back.TabIndex = 4;
+            this.button_back.Text = "Atras";
+            this.button_back.UseVisualStyleBackColor = true;
+            this.button_back.Click += new System.EventHandler(this.button_back_Click);
+            // 
+            // button_edit
+            // 
+            this.button_edit.Location = new System.Drawing.Point(123, 251);
+            this.button_edit.Name = "button_edit";
+            this.button_edit.Size = new System.Drawing.Size(75, 23);
+            this.button_edit.TabIndex = 5;
+            this.button_edit.Text = "Editar";
+            this.button_edit.UseVisualStyleBackColor = true;
+            // 
+            // button_view
+            // 
+            this.button_view.Location = new System.Drawing.Point(270, 251);
+            this.button_view.Name = "button_view";
+            this.button_view.Size = new System.Drawing.Size(75, 23);
+            this.button_view.TabIndex = 6;
+            this.button_view.Text = "Ver";
+            this.button_view.UseVisualStyleBackColor = true;
+            // 
+            // button_eliminar
+            // 
+            this.button_eliminar.Location = new System.Drawing.Point(411, 251);
+            this.button_eliminar.Name = "button_eliminar";
+            this.button_eliminar.Size = new System.Drawing.Size(75, 23);
+            this.button_eliminar.TabIndex = 7;
+            this.button_eliminar.Text = "Eliminar";
+            this.button_eliminar.UseVisualStyleBackColor = true;
+            // 
             // form_detalles_contacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(591, 450);
+            this.Controls.Add(this.button_eliminar);
+            this.Controls.Add(this.button_view);
+            this.Controls.Add(this.button_edit);
+            this.Controls.Add(this.button_back);
             this.Controls.Add(this.label_date);
             this.Controls.Add(this.label_email);
             this.Controls.Add(this.label_numberphone);
             this.Controls.Add(this.label_name);
             this.Name = "form_detalles_contacto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "form_detalles_contacto";
             this.Load += new System.EventHandler(this.form_detalles_contacto_Load);
             this.ResumeLayout(false);
@@ -97,5 +143,9 @@
         private System.Windows.Forms.Label label_numberphone;
         private System.Windows.Forms.Label label_email;
         private System.Windows.Forms.Label label_date;
+        private System.Windows.Forms.Button button_back;
+        private System.Windows.Forms.Button button_edit;
+        private System.Windows.Forms.Button button_view;
+        private System.Windows.Forms.Button button_eliminar;
     }
 }
