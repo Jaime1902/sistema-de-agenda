@@ -1,0 +1,31 @@
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\sistema de agenda.exe.config
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\sistema de agenda.exe
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\sistema de agenda.pdb
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\MySql.Data.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Platform.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Platform.Xml.Serialization.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Shaolinq.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Shaolinq.MySql.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\MySql.Data.xml
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Shaolinq.xml
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema de agenda.csproj.AssemblyReference.cache
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema de agenda.csproj.SuggestedBindingRedirects.cache
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema_de_agenda.Form1.resources
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema_de_agenda.Properties.Resources.resources
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema de agenda.csproj.GenerateResource.cache
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema de agenda.csproj.CoreCompileInputs.cache
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema de agenda.csproj.CopyComplete
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema de agenda.exe
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema de agenda.pdb
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema_de_agenda.form_registrer.resources
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema_de_agenda.form_p.resources
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Debug\sistema_de_agenda.form_detalles_contacto.resources
