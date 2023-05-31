@@ -79,7 +79,7 @@ namespace sistema_de_agenda
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            //Hola
         }
 
         private void CargarDatosContactos()
