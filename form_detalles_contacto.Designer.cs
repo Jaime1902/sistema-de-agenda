@@ -96,6 +96,7 @@
             this.button_edit.TabIndex = 5;
             this.button_edit.Text = "Editar";
             this.button_edit.UseVisualStyleBackColor = true;
+            this.button_edit.Click += new System.EventHandler(this.button_edit_Click);
             // 
             // button_view
             // 
@@ -105,6 +106,7 @@
             this.button_view.TabIndex = 6;
             this.button_view.Text = "Ver";
             this.button_view.UseVisualStyleBackColor = true;
+            this.button_view.Click += new System.EventHandler(this.button_view_Click);
             // 
             // button_eliminar
             // 
@@ -114,12 +116,13 @@
             this.button_eliminar.TabIndex = 7;
             this.button_eliminar.Text = "Eliminar";
             this.button_eliminar.UseVisualStyleBackColor = true;
+            this.button_eliminar.Click += new System.EventHandler(this.button_eliminar_Click);
             // 
             // form_detalles_contacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 450);
+            this.ClientSize = new System.Drawing.Size(591, 302);
             this.Controls.Add(this.button_eliminar);
             this.Controls.Add(this.button_view);
             this.Controls.Add(this.button_edit);
@@ -128,6 +131,7 @@
             this.Controls.Add(this.label_email);
             this.Controls.Add(this.label_numberphone);
             this.Controls.Add(this.label_name);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "form_detalles_contacto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "form_detalles_contacto";

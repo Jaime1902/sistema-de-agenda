@@ -25,6 +25,8 @@ namespace sistema_de_agenda
         {
             InitializeComponent();
             this.contactoId = contactoId;
+            this.SetStyle(ControlStyles.DoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
+            this.UpdateStyles();
 
             string connectionString = $"SERVER={server};DATABASE={database};UID={uid};PASSWORD={password};";
             connection = new MySqlConnection(connectionString);
@@ -33,6 +35,8 @@ namespace sistema_de_agenda
         private void form_detalles_contacto_Load(object sender, EventArgs e)
         {
             CargarDetallesContacto();
+            this.SetStyle(ControlStyles.DoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
+            this.UpdateStyles();
         }
 
         private void CargarDetallesContacto()
@@ -103,8 +107,55 @@ namespace sistema_de_agenda
 
         private void button_back_Click(object sender, EventArgs e)
         {
-            
-            this.Close();
+            Hide(); // Ocultar el formulario en lugar de cerrarlo
+            Dispose(); // Eliminar el formulario para liberar recursos
+        }
+
+        private void button_edit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_view_Click(object sender, EventArgs e)
+        {
+            CargarDetallesContacto();
+        }
+
+        private void button_eliminar_Click(object sender, EventArgs e)
+        {
+            DialogResult confirmResult = MessageBox.Show("¿Estás seguro de que quieres eliminar este contacto?", "Confirmar Eliminación", MessageBoxButtons.YesNo);
+            if (confirmResult == DialogResult.Yes)
+            {
+                try
+                {
+                    connection.Open();
+
+                    // Consulta para eliminar el contacto
+                    string query = "DELETE FROM contactos WHERE id = @contactoId";
+                    MySqlCommand command = new MySqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@contactoId", contactoId);
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("El contacto ha sido eliminado correctamente.");
+                        Hide(); // Ocultar el formulario después de eliminar el contacto
+                        Dispose(); // Eliminar el formulario para liberar recursos
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se pudo eliminar el contacto.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al eliminar el contacto: " + ex.Message);
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
         }
     }
 }

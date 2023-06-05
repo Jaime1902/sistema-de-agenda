@@ -28,3 +28,4 @@ C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Release\Micr
 C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Release\Microsoft.Web.WebView2.Core.xml
 C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Release\Microsoft.Web.WebView2.WinForms.xml
 C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\bin\Release\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\suare\source\repos\sistema de agenda\sistema de agenda\obj\Release\sistema_de_agenda.form_detalles_contacto.resources
